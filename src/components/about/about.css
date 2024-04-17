@@ -1,0 +1,28 @@
+
+.about__container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .about__me {
+    text-align: center;
+    line-height: 2.5rem;
+  }
+  
+  .about__me-item {
+    font-size: 0.9rem;
+  }
+  
+  /* ========== MEDIA QUERIES (MEDIUM DEVICES) ========== */
+  @media screen and (max-width: 1024px) {
+    .about__container {
+      grid-template-columns: 1fr;
+      gap: 0;
+    }
+  }
+  
+  /* ========== MEDIA QUERIES (SMALL DEVICES) ========== */
+  /* @media screen and (max-width: 600px) {
+    
+  } */
+  
